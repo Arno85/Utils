@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "clean": "gulp clean-scss && gulp clean-html",
+    "check": "gulp clean-scss && gulp clean-html && ng lint && ng build --prod --aot --build-optimizer --common-chunk && ng test",
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-notify": "^3.2.0",
+    "gulp-pretty-html": "^2.0.9"
+  }
+}
